@@ -1,0 +1,6 @@
+spring:
+   application:
+        name: EmployeeConfigServer
+   cloud:
+    config:
+      uri: file:///C://Users//DELL//Desktop//config
