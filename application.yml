@@ -1,0 +1,12 @@
+server:
+ port: 8082
+spring:
+  cloud:
+    config:
+       server:
+        native:
+          search-locations: file:.C://Users//DELL//Desktop//config
+  application:
+    name:alpha
+  profiles:
+    active:native
